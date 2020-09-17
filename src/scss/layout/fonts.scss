@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Squad-Regular';
+	src: url('../font/Squad-Regular.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Franklin Gothic';
+	src: url('../font/FRAHV.TTF') format('TTF');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin squ() {
+	font-family: 'Squad-Regular';
+}
+@mixin fra() {
+	font-family: 'Franklin Gothic';
+}
+
+// @mixin ubuntu($style: light) {
+// 	font-family: 'Ubuntu', Helvetica, sans-serif;
+
+// 	@if $style == light {
+// 		font-weight: 300;
+// 	}
+
+// 	@if $style == medium {
+// 		font-weight: 500;
+// 	}
+
+// 	@if $style == bold {
+// 		font-weight: bold;
+// 	}
+// }

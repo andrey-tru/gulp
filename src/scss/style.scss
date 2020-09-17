@@ -1,0 +1,18 @@
+
+
+// resolutions
+$desktop: 1500px;
+$laptop: 1100px;
+$tablets: 768px;
+$phones: 480px;
+
+//normalize
+@import "layout/normalize";
+
+// media
+@import "layout/media";
+
+// setups
+@import "layout/fonts";
+@import "layout/layout";
+
